@@ -108,7 +108,7 @@ uv sync
 Run the repository checks:
 
 ```bash
-PYTHONPATH=packages/ctidy/src:packages/cformat/src:. python -m unittest discover -s tests
+PYTHONPATH=packages/ctidy/src:packages/cformat/src:. uv run -m unittest discover -s tests
 ruff check .
 ty check .
 ```
