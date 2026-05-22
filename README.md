@@ -102,7 +102,7 @@ tools/       Release and maintenance helpers
 Install the workspace tooling:
 
 ```bash
-uv sync --group dev
+uv sync
 ```
 
 Run the repository checks:
