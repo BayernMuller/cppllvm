@@ -109,6 +109,6 @@ Run the repository checks:
 
 ```bash
 PYTHONPATH=packages/ctidy/src:packages/cformat/src:. uv run -m unittest discover -s tests
-ruff check .
-ty check .
+uv run ruff check .
+uv run ty check .
 ```
