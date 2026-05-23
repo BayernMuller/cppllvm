@@ -140,6 +140,7 @@ PyPI releases are wheel-only. `ctidy` does not publish an `sdist`.
 Supported wheel platforms are limited to the LLVM 20 assets available in the pinned prebuilt release:
 
 - Linux `x86_64`
+- Linux `arm64`
 - macOS `x86_64`
 - macOS `arm64`
 - Windows `x86_64`

@@ -54,6 +54,7 @@ Available wheels are limited to the upstream LLVM 20 prebuilt assets pinned by t
 | Platform         | Python ABI | `ctidy` | `cformat` |
 | ---------------- | ---------- | ------- | --------- |
 | Linux `x86_64`   | `cp39+`    | ✅      | ✅        |
+| Linux `arm64`    | `cp39+`    | ✅      | ✅        |
 | macOS `x86_64`   | `cp39+`    | ✅      | ✅        |
 | macOS `arm64`    | `cp39+`    | ✅      | ✅        |
 | Windows `x86_64` | `cp39+`    | ✅      | ✅        |
